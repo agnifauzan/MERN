@@ -1,0 +1,18 @@
+0. INTRODUCTION
+	-INSTALL REACT JS
+	-DELETE Index.css dan App.css
+	-INSTALL react-router-dom (untuk navigasi pada aplikasi/ link pada nav)
+	-INSTALL node-sass(framework css)
+	-Buat folder pada src(Elements/Button) => FILE(index.js, index.scss, index.test.js)
+	-Buat folder pada src (parts) => File(header.js) 
+	-Buat folder pada src (pages) => File(landingpage.js) 
+	-Buat folder pada src (Assets) => Folder(images, scss) => pada scss isi datanya dengan scss dari bootstarpt
+	-Buat fils jsconfig.js untuk mempermudah src import
+2. Component Button
+	-[Elements/button/index.js] import {LINK} react-router-dom /u link
+	-[Elements/button/index.js] import propTypes
+	-[Elements/button/index.js] Buat component propTypes pada button
+	-[Elements/button/index.js] Isi bagian dalam component sesuai dengan propTypes nya
+	-[Elements/button/index.test.js] buat script Test button
+	-[Elements/button/index.test.js] import Button dan import render from "@testing-library/react"
+	-[Elements/button/index.test.js] Jalanakan test nya
