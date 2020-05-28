@@ -1,5 +1,13 @@
-import React from "react";
+import React, { Component } from "react";
+import Header from "../parts/header";
 
-export default function landingpage() {
-  return <div></div>;
+export default class landingpage extends Component {
+  render() {
+    return (
+      <>
+        {/* menerima semua props yg ada */}
+        <Header {...this.props}></Header>
+      </>
+    );
+  }
 }

@@ -16,3 +16,14 @@
 	-[Elements/button/index.test.js] buat script Test button
 	-[Elements/button/index.test.js] import Button dan import render from "@testing-library/react"
 	-[Elements/button/index.test.js] Jalanakan test nya
+3. Component parts Icon
+	-[src/assets/scss/variable.scss] => merubah dan menambahkan warna primarry dan secondary
+	-[src/assets/scss/_text.scss] => melakukan perulangan pada colors dan grays
+4.Component parts Header
+	-[src/parts/header] import IconText.js dan import button 
+	-[src/parts/header] buat script navbar ex: bootstrap navbar
+	-[src/parts/header] buat function getNavLinkClass untuk menambah properti active pada <li> class
+	-[src/parts/header] kirim ke parts/LandingPage lalu ke App.js
+	-[src/parts/landingpage] import parts/header
+	-[App.js] import parts/landingPage dan import Router,Route
+		
