@@ -26,4 +26,10 @@
 	-[src/parts/header] kirim ke parts/LandingPage lalu ke App.js
 	-[src/parts/landingpage] import parts/header
 	-[App.js] import parts/landingPage dan import Router,Route
-		
+5.Component parts Hero
+	-[src/assets/images/icon] import icon hotel,pantai,treasure dan img-hero dari figma
+	-[src/json] tambahkan 3 file json 
+	-[src/pages/landingPages] import landingpage.json masukan ke <Hero data={landingPage.hero}></Hero>
+	-[src/parts/Hero]import file icon dan image dan di isi script nya dengan tag <section></section>
+	-[src/assest/scss/_button.scss] untuk menambahkan class button-shadow (LINE 58)dan menambahkan border-radius pada button 
+	-[src/assest/scss/_variable.scss] untuk mengganti default font-family jadi Poppins LINE 278

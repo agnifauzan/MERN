@@ -10,7 +10,10 @@ export default function header(props) {
   return (
     <header className="spacing-sm">
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav
+          className="navbar navbar-expand-lg navbar-light"
+          style={{ padding: 0 }}
+        >
           <BrandIcon />
           <div className="collapse navbar-collapse">
             <ul className="navbar-nav ml-auto">
