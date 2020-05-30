@@ -17,7 +17,7 @@ export default function Hero(props) {
   return (
     <section className="container pt-4">
       <div className="row align-items-center">
-        <div className="col-6 pr-5" style={{ height: 410, width: 410 }}>
+        <div className="col-6 pr-5" style={{ height: "auto", width: 410 }}>
           <h1 className="font-weight-bold line-height-1 mb-3">
             Vacation, beach and lodging
             <span style={{ color: "red", fontSize: "35px" }}>.</span>
@@ -78,7 +78,7 @@ export default function Hero(props) {
             </div>
           </div>
         </div>
-        <div className="col-6 pl-5" style={{ height: 410, width: 410 }}>
+        <div className="col-6 pl-5" style={{ height: "auto", width: 410 }}>
           <div>
             <img
               style={{ borderRadius: 10 }}

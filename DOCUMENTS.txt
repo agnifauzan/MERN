@@ -33,3 +33,9 @@
 	-[src/parts/Hero]import file icon dan image dan di isi script nya dengan tag <section></section>
 	-[src/assest/scss/_button.scss] untuk menambahkan class button-shadow (LINE 58)dan menambahkan border-radius pada button 
 	-[src/assest/scss/_variable.scss] untuk mengganti default font-family jadi Poppins LINE 278
+5.Component parts MostPicked
+	-[src/pages/landingPage] import <section> baru namanya MostPicked dan masukan ke dalam component
+	-[src/parts/MostPicked] ibuat Container-grid untuk tiap2 column dan row 
+	-[src/assets/scss/container-grid.scss] buat class baru unutk membuat col dan row pada scss dengan nama container-grid.scss
+	-Component Untuk Scroll dari Button SHOW ME NOW= hero.js, mostpicked.js dan landingPage.js
+	
