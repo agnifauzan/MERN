@@ -63,34 +63,34 @@
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Que Nature",
+          "imageUrl": "/images/category-1.jpg",
+          "country": "Indonesia",
+          "city": "Garut",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Vanila",
+          "imageUrl": "/images/category-2.jpg",
+          "country": "Indonesia",
+          "city": "Pangandaran",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Forest Sun",
+          "imageUrl": "/images/category-3.jpg",
+          "country": "Indonesia",
+          "city": "Batukaras",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "City Walk",
+          "imageUrl": "/images/category-4.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         }
       ]
@@ -101,54 +101,54 @@
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-5.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "White Room",
+          "imageUrl": "/images/category-5.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": true
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Minimalis",
+          "imageUrl": "/images/category-6.jpg",
+          "country": "Indonesia",
+          "city": "Bandung",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "View City",
+          "imageUrl": "/images/category-7.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Break",
+          "imageUrl": "/images/category-8.jpg",
+          "country": "Indonesia",
+          "city": "Pangandaran",
+          "isPopular": false
         }
       ]
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Apartments with kitchen set",
+      "name": "Villa with kitchen set",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "White Room",
+          "imageUrl": "/images/category-9.jpg",
+          "country": "Indonesia",
+          "city": "Jakarta",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
+          "imageUrl": "/images/category-10.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -156,18 +156,18 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
+          "imageUrl": "/images/category-11.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": true
+          "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
+          "imageUrl": "/images/category-12.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": false
+          "isPopular": true
         }
       ]
     }

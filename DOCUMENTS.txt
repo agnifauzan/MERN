@@ -38,4 +38,8 @@
 	-[src/parts/MostPicked] ibuat Container-grid untuk tiap2 column dan row 
 	-[src/assets/scss/container-grid.scss] buat class baru unutk membuat col dan row pada scss dengan nama container-grid.scss
 	-Component Untuk Scroll dari Button SHOW ME NOW= hero.js, mostpicked.js dan landingPage.js
-	
+6.Component Ctegories
+	-[src/parts/Categories.js] Buat file categories.js Untuk membuat halaman categories
+	-[src/parts/Categories.js] Lakukan Perulangan dengan map dengan nama data(diambil dari parameter),
+							   data itu sendiri di ambil dari <Categories> pada landingpage dan landingPage mengambil data dari json/landingPage.json
+	-[src/parts/Categories.js] dalam category lakukan lagi perulangan dengan nama category.items.map(){} dan me return column dan row 
