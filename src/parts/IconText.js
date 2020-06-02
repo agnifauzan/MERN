@@ -6,7 +6,7 @@ export default function IconText() {
     <Button className="brand-text-icon" href="" type="link">
       Hi
       <span className="text-gray-900">
-        Beach<span style={{ color: "red", fontSize: "35px" }}>.</span>
+        Beach<span style={{ color: "orange", fontSize: "35px" }}>.</span>
       </span>
     </Button>
   );

@@ -43,3 +43,8 @@
 	-[src/parts/Categories.js] Lakukan Perulangan dengan map dengan nama data(diambil dari parameter),
 							   data itu sendiri di ambil dari <Categories> pada landingpage dan landingPage mengambil data dari json/landingPage.json
 	-[src/parts/Categories.js] dalam category lakukan lagi perulangan dengan nama category.items.map(){} dan me return column dan row 
+7. Component Testimony
+	-[src/elements/star] Buat component smart pada element start
+	-[src/assets/scss/colorVariables.scss] buat scss baru, hasil pecahan dari variable.scss lalu colorVariables import pada style.scss dan index.scss(start)
+	-[src/parts/testimony] Import start dari element start
+	-[src/pages/landingPage] Import testimony dari parts
