@@ -48,3 +48,16 @@
 	-[src/assets/scss/colorVariables.scss] buat scss baru, hasil pecahan dari variable.scss lalu colorVariables import pada style.scss dan index.scss(start)
 	-[src/parts/testimony] Import start dari element start
 	-[src/pages/landingPage] Import testimony dari parts
+8.Component Footer
+	-[src/parts/footer] Buat file baru dengan nama footer.js
+	
+9.Buat reveral fade{animasi}
+	-INSTALL dulu dengan perintah= npm install react-reveal --save
+	-Import dengan perintah = import Fade from 'react-reveal/Fade'; lalu implementaskan dengan tag <Fade>
+10. Input Number
+	-Buat smart component pada elements/Form
+11. Input Date
+	-Buat smart component pada elements/Form
+	-Download packages react-date-range(npm i react-date-range) dan date-fns (npm i date-fns)
+	-Buat file baru pada folder utils/formatDate.js
+	-Untuk belajar Intl(tanggal) kunjungi Intl.DateTimeFormat
