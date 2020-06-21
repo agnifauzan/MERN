@@ -1,7 +1,9 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import Button from "./index";
+
 import { BrowserRouter as Router } from "react-router-dom";
+
+import Button from "./index";
 
 test("should not allowed click button if disabled is present", () => {
   const { container } = render(<Button isDisabled></Button>);

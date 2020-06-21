@@ -1,12 +1,12 @@
 import React from "react";
-import ImageHero from "../assets/images/img-hero.jpg";
-import IconHotel from "../assets/images/icons/icon-hotel.svg";
-import IconBeach from "../assets/images/icons/icon-beach.svg";
-import IconTreasure from "../assets/images/icons/icon-treasure.svg";
-import numberFormat from "../utils/formatNumber";
 import Fade from "react-reveal/Fade";
 
+import ImageHero from "../assets/images/img-hero.jpg";
+
+import numberFormat from "../utils/formatNumber";
+
 import Button from "../elements/Button";
+
 export default function Hero(props) {
   function showMostPicked() {
     window.scrollTo({
@@ -31,6 +31,7 @@ export default function Hero(props) {
               Let's take a vacation with my beloved family. Use your time
               valuable for smile and have fun.
             </p>
+
             <Button
               className="btn px-5"
               isPrimary
@@ -44,7 +45,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconHotel}
+                  src="/images/icon-hotel.svg"
                   alt={`${props.data.hotels} hotels`}
                 ></img>
                 <h6 className="mt-3">
@@ -58,7 +59,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconBeach}
+                  src="/images/icon-beach.svg"
                   alt={`${props.data.beach} beach`}
                 ></img>
                 <h6 className="mt-3">
@@ -70,7 +71,7 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTreasure}
+                  src="/images/icon-treasure.svg"
                   alt={`${props.data.treasures} Treasure`}
                 ></img>
                 <h6 className="mt-3">

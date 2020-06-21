@@ -1,7 +1,9 @@
 import React from "react";
-import BrandIcon from "../parts/IconText";
-import Button from "../elements/Button";
 import Fade from "react-reveal/Fade";
+
+import BrandIcon from "../parts/IconText";
+
+import Button from "../elements/Button";
 
 export default function header(props) {
   const getNavLinkClass = (path) => {
@@ -19,7 +21,7 @@ export default function header(props) {
             <BrandIcon />
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav ml-auto">
-                <li className={`nav-item${getNavLinkClass("/")}`}>
+                <li className={`nav-item${getNavLinkClass("")}`}>
                   <Button className="nav-link" type="link" href="">
                     {" "}
                     Home

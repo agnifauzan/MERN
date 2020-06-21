@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import propTypes from "prop-types";
-
 import { DateRange } from "react-date-range";
 
 import "./index.scss";

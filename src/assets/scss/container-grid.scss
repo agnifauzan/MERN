@@ -3,15 +3,15 @@
   grid-template-columns: repeat(12, 1fr);
   grid-auto-rows: minmax(185px, auto);
   grid-auto-flow: dense;
-  row-gap: 30px;
-  column-gap: 30px;
+  row-gap: 15px;
+  column-gap: 15px;
   position: relative;
   z-index: 3;
 
   &.sm {
     grid-auto-rows: minmax(245px, auto);
-    row-gap: 10px;
-    column-gap: 10px;
+    row-gap: 8px;
+    column-gap: 8px;
   }
   .item {
     &.column-1 {

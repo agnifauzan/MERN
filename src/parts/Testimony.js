@@ -1,7 +1,9 @@
 import React from "react";
+
+import Fade from "react-reveal/Fade";
+
 import Star from "../elements/Star";
 import Button from "../elements/Button";
-import Fade from "react-reveal/Fade";
 
 export default function Testimony({ data }) {
   return (

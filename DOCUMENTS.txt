@@ -61,3 +61,5 @@
 	-Download packages react-date-range(npm i react-date-range) dan date-fns (npm i date-fns)
 	-Buat file baru pada folder utils/formatDate.js
 	-Untuk belajar Intl(tanggal) kunjungi Intl.DateTimeFormat
+
+	//DATA ATAU FOTO YANG DI KEMBALIKAN DARI API MAKA DI SIMPAN DI FOLDER PUBLIC

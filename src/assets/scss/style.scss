@@ -111,8 +111,13 @@ section {
 }
 
 .card {
+  &.bordered {
+    border: 1px solid $gray-200;
+  }
+
   height: 100%;
   border: 0;
+  border-radius: 15px;
 
   .tag {
     z-index: 3;
@@ -131,17 +136,13 @@ section {
     }
   }
 
-  .img-contan {
-    height: 100%;
-    margin-bottom: 0;
-    overflow: hidden;
-    border: 0;
-  }
   .img-wrapper {
     height: 100%;
     margin-bottom: 0;
+    border-radius: 0.9375rem;
     overflow: hidden;
     border: 0;
+    // border-radius: 10px;
   }
 
   .meta-wrapper {
@@ -257,5 +258,12 @@ footer {
     margin: 50px 0;
     font-weight: 300;
     color: $gray-500;
+  }
+}
+
+main {
+  p {
+    color: $gray-500;
+    font-weight: 300;
   }
 }

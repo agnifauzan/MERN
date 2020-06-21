@@ -1,5 +1,7 @@
 import React from "react";
+
 import BrandIcon from "../parts/IconText";
+
 import Button from "../elements/Button";
 
 export default function Footer(props) {
