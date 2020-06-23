@@ -80,7 +80,7 @@ export default class BookingForm extends Component {
           <h5 className="h2 text-teal mb-4">
             ${itemDetails.price}{" "}
             <span className="text-gray-500 font-weight-light">
-              per {itemDetails.unit}
+              / {itemDetails.unit}
             </span>
           </h5>
           <label htmlFor="duration"> How long you will stay</label>
@@ -95,15 +95,15 @@ export default class BookingForm extends Component {
           <label htmlFor="date">Pick a date</label>
           <InputDate onChange={this.updateData} name="date" value={data.date} />
           <h6
-            className="text-gray-500 font-weight-light"
+            className="text-gray-500 font-weight-light mb-5"
             style={{ marginBottom: 40 }}
           >
             You Will Pay{" "}
-            <span className="text-gray-900">
+            <span className="text-teal">
               ${itemDetails.price * data.duration} USD
             </span>{" "}
-            per{" "}
-            <span className="text-gray-900">
+            for{" "}
+            <span className="text-teal">
               {data.duration}{" "}
               {data.duration > 1
                 ? `${itemDetails.unit}s `

@@ -10,8 +10,8 @@
 
   &.sm {
     grid-auto-rows: minmax(245px, auto);
-    row-gap: 8px;
-    column-gap: 8px;
+    row-gap: 5px;
+    column-gap: 5px;
   }
   .item {
     &.column-1 {

@@ -49,10 +49,10 @@ export default function Date(props) {
   return (
     <div
       ref={refDate}
-      className={["input-date mb-3", props.outerClassName].join(" ")}
+      className={["input-date mb-4", props.outerClassName].join(" ")}
     >
       <div className="input-group">
-        <div className="input-group-prepend bg-gray-900">
+        <div className="input-group-prepend bg-gray-700">
           <span className="input-group-text">
             <img src={iconCalendar} alt="icon calendar" />
           </span>

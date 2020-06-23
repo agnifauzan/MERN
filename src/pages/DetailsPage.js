@@ -30,7 +30,7 @@ export default class DetailsPage extends Component {
         ></PageDetailTitle>
         <FeaturedImage data={ItemDetails.imageUrls}></FeaturedImage>
         <section className="container">
-          <div className="row">
+          <div className="row" style={{ marginBottom: 114 }}>
             <div className="col-7 pr-5">
               <PageDetailDescription data={ItemDetails}></PageDetailDescription>
             </div>

@@ -47,7 +47,7 @@ export default function Number(props) {
   };
 
   return (
-    <div className={["input-number mb-3", props.outerClassName].join(" ")}>
+    <div className={["input-number mb-4", props.outerClassName].join(" ")}>
       <div className="input-group">
         <div className="input-group-prepend ">
           <span className="input-group-text minus" onClick={minus}>
