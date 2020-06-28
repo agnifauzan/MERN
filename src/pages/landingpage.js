@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import landingPage from "../json/landingPage.json";
 
-import Header from "../parts/header";
+import Header from "../parts/Header";
 import Hero from "../parts/Hero";
 import MostPicked from "../parts/MostPicked";
 import Categories from "../parts/Categories";
@@ -22,14 +22,14 @@ export default class landingpage extends Component {
     return (
       <>
         {/* menerima semua props yg ada */}
-        <Header {...this.props}></Header>
-        <Hero refMostPicked={this.refMostPicked} data={landingPage.hero}></Hero>
+        <Header {...this.props} />
+        <Hero refMostPicked={this.refMostPicked} data={landingPage.hero} />
         <MostPicked
           data={landingPage.mostPicked}
           refMostPicked={this.refMostPicked}
-        ></MostPicked>
+        />
         <Categories data={landingPage.categories} />
-        <Testimony data={landingPage.testimonial}></Testimony>
+        <Testimony data={landingPage.testimonial} />
 
         <Footer />
       </>

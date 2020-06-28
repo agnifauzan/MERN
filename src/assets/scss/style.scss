@@ -47,6 +47,10 @@
 @import "utilities";
 @import "print";
 
+.brand-text {
+  display: flex;
+  justify-content: center;
+}
 .brand-text-icon {
   font-weight: 500;
   font-size: 26px;
