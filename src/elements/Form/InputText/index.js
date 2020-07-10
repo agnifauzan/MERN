@@ -4,20 +4,21 @@ import "./index.scss";
 
 export default function Text(props) {
   const {
-    name,
     value,
-    onChange,
-    prepend,
-    append,
     type,
     placeholder,
+    name,
+    prepend,
+    append,
     outerClassName,
     inputClassName,
+    errorResponse,
   } = props;
 
-  const [hasError, setHasError] = useState(null);
+  const [HasError, setHasError] = useState(null);
   let pattern = "";
-  if (type === "email") pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+s/;
+  if (type === "email") pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
   if (type === "tel") pattern = "[0-9]*";
 
   const onChange = (event) => {
@@ -27,19 +28,18 @@ export default function Text(props) {
         value: event.target.value,
       },
     };
+
+    if (type === "email") {
+      if (!pattern.test(event.target.value)) setHasError(errorResponse);
+      else setHasError(null);
+    }
+
+    if (type === "tel") {
+      if (event.target.validity.valid) props.onChange(target);
+    } else {
+      props.onChange(target);
+    }
   };
-
-  if (type === "email") {
-    if (!pattern.test(event.target.value)) setHasError(errorResponse);
-    else setHasError("");
-  }
-
-  if (type === "tel") {
-    if (event.target.validity.valid) props.onChange(target);
-  } else {
-    props.onChange(target);
-  }
-
   return (
     <div className={["input-text mb-3", outerClassName].join(" ")}>
       <div className="input-group">
@@ -63,7 +63,7 @@ export default function Text(props) {
           </div>
         )}
       </div>
-      {hasError && <span className="error-helper">{hasError}</span>}
+      {HasError && <span className="error-helper">{HasError}</span>}
     </div>
   );
 }
@@ -76,7 +76,7 @@ Text.defaultProps = {
 };
 
 Text.propTypes = {
-  name: propTypes.isRequired,
+  name: propTypes.string.isRequired,
   value: propTypes.oneOfType([propTypes.number, propTypes.string]).isRequired,
   onChange: propTypes.func.isRequired,
   prepend: propTypes.oneOfType([propTypes.number, propTypes.string]),

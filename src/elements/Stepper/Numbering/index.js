@@ -1,6 +1,6 @@
 import React from "react";
 
-import Fade from "react-reveral/Fade";
+import Fade from "react-reveal/Fade";
 
 import propTypes from "prop-types";
 
@@ -8,12 +8,15 @@ import "./index.scss";
 
 export default function Numbering({ style, className, data, current }) {
   const keysOfData = Object.keys(data);
+  // console.log(keysOfData.length);
+
   return (
     <Fade>
-      <ol className={["stepper", className].join(" ")} style={{ style }}>
+      <ol className={["stepper", className].join(" ")} style={style}>
         {keysOfData.map((list, index) => {
           let isActive = list === current ? "active" : "";
           if (index + 1 === keysOfData.length) {
+            //yang memebuat object jadi 2
             isActive = "";
             return null;
           }

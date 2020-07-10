@@ -1,5 +1,5 @@
 {
-  "_id": "asd1293uasdads1",
+  "_id": "asd1293uasdads",
   "name": " Santolo Sun",
   "type": "Hotel",
   "imageUrls": [
@@ -18,7 +18,7 @@
   ],
   "country": "Indonesia",
   "city": "Garut  ",
-  "price": "42",
+  "price": "50",
   "unit": "night",
   "isPopular": true,
   "hasBackyard": true,

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 import propTypes from "prop-types";
 
 export default function Stepper(props) {
   const { steps, initialStep } = props;
   const stepKeys = Object.keys(steps);
+  console.log(stepKeys);
 
   const [CurrentStep, setCurrentStep] = useState(
     stepKeys.indexOf(initialStep) > -1 ? initialStep : stepKeys[0]
@@ -27,3 +28,8 @@ Stepper.propTypes = {
   data: propTypes.object.isRequired,
   initialStep: propTypes.string.isRequired,
 };
+
+export { default as Numbering } from "./Numbering";
+export { default as Meta } from "./Meta";
+export { default as Controller } from "./Controller";
+export { default as MainContent } from "./MainContent";

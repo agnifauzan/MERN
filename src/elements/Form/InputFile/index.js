@@ -45,12 +45,14 @@ export default function File(props) {
           value={FileName}
           onChange={onChange}
         />
+
         <input
           onClick={() => refInputFile.current.click()}
           defaultValue={FileName}
           placeholder={placeholder}
           className={["form-control", inputClassName].join(" ")}
         />
+
         {append && (
           <div className="input-group-append bg-gray-900">
             <span className="input-group-text">{append}</span>
